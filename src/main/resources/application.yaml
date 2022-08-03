@@ -8,6 +8,10 @@ spring:
     url: URLDataBase
     username: NAME
     password: PASS
+  sql:
+    init:
+      data-locations: classpath:Dump.sql
+      mode: always
 sites:
   url:
     - http://www.playback.ru

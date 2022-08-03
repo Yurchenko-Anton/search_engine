@@ -11,11 +11,21 @@ You must change some parameters in application.yml, which you can see in the pic
 
 ![img_1.png](img_1.png)
 
+And you can connect lib
+
+![img_3.png](img_3.png)
+![img_4.png](img_4.png)
+![img_5.png](img_5.png)
+
+#### Connect all this jar files
+![img_6.png](img_6.png)
+
 According to the standard, access to the search engine via a link "http://localhost:8080"
 
 If you want changes sites or add new, you can replace these parameters in application.yml
 
 ![img_2.png](img_2.png)
+
 
 ### Technology stack
 This project uses technologies such as: SpringBoot , SpringData , JSON , JSOUP ,
