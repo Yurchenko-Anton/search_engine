@@ -2,7 +2,7 @@ package com.example.page;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
-import java.util.List;
+
 
 @ConfigurationProperties(prefix = "sites")
 public class UrlProperties {

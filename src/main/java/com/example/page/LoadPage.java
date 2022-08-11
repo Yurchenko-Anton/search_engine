@@ -2,15 +2,10 @@ package com.example.page;
 
 import com.example.controllers.site.SiteRepository;
 import com.example.page.fieldModel.FieldRepository;
-import com.example.page.indexModel.Index;
 import com.example.page.indexModel.IndexRepository;
 import com.example.page.lemmaModel.LemmaRepository;
 import com.example.page.pageModel.PageRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.boot.CommandLineRunner;
-import org.springframework.context.annotation.Profile;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 

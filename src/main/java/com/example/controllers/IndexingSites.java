@@ -12,15 +12,12 @@ import com.example.page.lemmaModel.LemmaRepository;
 import com.example.page.pageModel.Page;
 import com.example.page.pageModel.PageRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestMapping;
 
 import java.util.Date;
 import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-import java.util.concurrent.TimeUnit;
 
 @Controller
 public class IndexingSites {

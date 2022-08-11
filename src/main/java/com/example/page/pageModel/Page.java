@@ -1,11 +1,7 @@
 package com.example.page.pageModel;
 
 import com.example.controllers.site.Site;
-import com.example.page.lemmaModel.Lemma;
-
 import javax.persistence.*;
-import java.util.HashSet;
-import java.util.Set;
 
 @Entity
 @Table(name = "page")
