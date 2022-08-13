@@ -1740,7 +1740,7 @@ var API = function(){
                     
                     switch ($this.data('send')) {
                         case 'indexPage':
-                            var $page = $this.closest('.form').find('input[name="page"]');
+                            var $page = $this.closest('.form').find('input[name="url"]');
                             data = {url: $page.val()};
                             break;
                         case 'search':
